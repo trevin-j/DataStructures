@@ -1,3 +1,3 @@
 # Data Structures
 
-* [Stacks](stacks)
+* [Stacks](stacks.md)
