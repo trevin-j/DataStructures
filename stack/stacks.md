@@ -169,6 +169,8 @@ def undo_action(self):
 
 Great job, our program now runs smoothly! If you want some added challenge, try creating a `redo_action` method for redoing something you have undone! Hint: you'll want to create another stack for this, and you will want to know if another action is added, because you wouldn't want to redo something that happened long before you added another action!
 
+You can download the full solution [here](stacks_finished_example.py).
+
 ## Problem
 
 To further your understanding of how stack data structures work, try the following problem.
