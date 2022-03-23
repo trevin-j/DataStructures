@@ -1,1 +1,3 @@
 # Data Structures
+
+* [Stacks](stacks)
