@@ -1,4 +1,4 @@
-# Stacks
+# Stack Data Structure
 
 ## Introduction
 
