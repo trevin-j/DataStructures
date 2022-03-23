@@ -57,4 +57,4 @@ print(my_stack) # Should print [0, 1, 4, 5, 6]
 
 Implement the `pop_middle` function so that it follows all of the directions specified in the function docstring.
 
-[View possible solution](stacksolution.py)
+[View possible solution](stacksolution.md)
