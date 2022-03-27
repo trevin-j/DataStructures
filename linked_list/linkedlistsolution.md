@@ -1,4 +1,4 @@
-# Stacks Problem Solution
+# Linked List Problem Solution
 
 The following code is one of many possible solutions.
 
