@@ -7,3 +7,6 @@ This repository contains three tutorials that cover three different data structu
 * [Stacks](stacks.md)
 * [Linked Lists](linkedlists.md)
 * [Trees](trees.md)
+
+
+Trevin Jones - CSE212-02 - jon20060@byui.edu
