@@ -35,7 +35,7 @@ A common use for stacks is undo. Stacks make this possible because of their natu
 
 Let us start with the following code:
 
-(You can download the starting code file [here](stacks_starting_example.py).)
+(You can download the starting code file [here](stack/stacks_starting_example.py).)
 
 ```Python
 '''
@@ -169,7 +169,7 @@ def undo_action(self):
 
 Great job, our program now runs smoothly! If you want some added challenge, try creating a `redo_action` method for redoing something you have undone! Hint: you'll want to create another stack for this, and you will want to know if another action is added, because you wouldn't want to redo something that happened long before you added another action!
 
-You can download the full solution [here](stacks_finished_example.py).
+You can download the full solution [here](stack/stacks_finished_example.py).
 
 ## Problem
 
@@ -203,4 +203,6 @@ print(my_stack) # Should print [0, 1, 4, 5, 6]
 
 Implement the `pop_middle` function so that it follows all of the directions specified in the function docstring.
 
-[View possible solution](stacksolution.md)
+[View possible solution](stack/stacksolution.md)
+
+[Return to main page](README.md)

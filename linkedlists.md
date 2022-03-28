@@ -45,17 +45,17 @@ We already discussed that a linked list consists of nodes, each pointing to the 
 
 The image below is an example of what a dynamic array might look like in memory.
 
-![Array visualized](img/ArrayVisualization.jpg)
+![Array visualized](linked_list/img/ArrayVisualization.jpg)
 
 While the dynamic array has each element in a sequence, a linked list could have nodes all over the place, each pointing to the next node. This is shown below.
 
-![Linked list visualized](img/LinkedListVisualization.jpg)
+![Linked list visualized](linked_list/img/LinkedListVisualization.jpg)
 
 Now that you can see what the linked list looks like in memory, lets examine some common opperations.
 
 ### Inserting at head/tail
 
-![Insert at head visualized](img/InsertHeadVisualized.jpg)
+![Insert at head visualized](linked_list/img/InsertHeadVisualized.jpg)
 
 The operations for inserting at the head and the tail are mostly the same.
 
@@ -67,7 +67,7 @@ If the new node is the only node, we will set both next_node and prev_node to No
 
 ### Inserting in the middle
 
-![Insert middle visualized](img/InsertMiddleVisualized.jpg)
+![Insert middle visualized](linked_list/img/InsertMiddleVisualized.jpg)
 
 The operation to insert in the middle follows a similar approach, except to get to that middle node we first have to iterate through all the nodes before it.
 
@@ -77,7 +77,7 @@ Now, we will have to disconnect the right node from the left node, and connect t
 
 ### Removing head/tail
 
-![Removing head visualized](img/RemoveHeadVisualized.jpg)
+![Removing head visualized](linked_list/img/RemoveHeadVisualized.jpg)
 
 To remove the head, we are going to once again change around some pointers. This time, instead of assigning pointers to a new node, we are going to reassign pointers to the nodes around the node that we want to delete. It Python, once we remove all references to the node we want to delete, that node will be completely deleted.
 
@@ -85,7 +85,7 @@ To start, we want to store the element that the head/tail node contains to a var
 
 ### Removing middle node
 
-![Remove middle visualized](img/RemoveMiddleVisualized.jpg)
+![Remove middle visualized](linked_list/img/RemoveMiddleVisualized.jpg)
 
 When we remove a middle node, the first thing we have to do is iterate through the nodes until we get to the one that we want. At this point, we set the left node's next_node to the right node, and the right node's prev_node to the left node. Now we can return the node's value.
 
@@ -99,7 +99,7 @@ For the example problem, we will create a playlist which allows the user to add 
 
 Let's start with the following code: 
 
-(It can be downloaded [here](linkedlist_starting_example.py).)
+(It can be downloaded [here](linked_list/linkedlist_starting_example.py).)
 
 ```Python
 '''
@@ -233,13 +233,13 @@ For the last method, `add_song_at`, we are going to insert a song at the given i
 
 Great! you should now be able to successfully run the test code!
 
-You can download the full solution [here](linkedlist_finished_example.py).
+You can download the full solution [here](linked_list/linkedlist_finished_example.py).
 
 ## Problem
 
 To further your understanding of how stack data structures work, try the following problem on your own.
 
-Start with the code [here](linkedlistproblem.py).
+Start with the code [here](linked_list/linkedlistproblem.py).
 
 The file contains a ***partial*** implementation of a singly linked list. Your job is to implement the `get` method, so that the test cases are successful.
 
@@ -253,6 +253,6 @@ For an extra challenge after you complete the task, you can implement more metho
 
 And if you really want to continue challenging yourself, try implementing a doubly linked list!
 
-[View possible solution to the base problem](linkedlistsolution.md)
+[View possible solution to the base problem](linked_list/linkedlistsolution.md)
 
 [Return to main page](README.md)
