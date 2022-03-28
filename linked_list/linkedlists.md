@@ -254,3 +254,5 @@ For an extra challenge after you complete the task, you can implement more metho
 And if you really want to continue challenging yourself, try implementing a doubly linked list!
 
 [View possible solution to the base problem](linkedlistsolution.md)
+
+[Return to main page](README.md)
