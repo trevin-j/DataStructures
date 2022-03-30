@@ -1,5 +1,15 @@
 # Stack Data Structure
 
+## Contents
+
+* [Introduction](#introduction)
+* [Using stacks in Python](#using-stacks-in-python)
+* [Performance](#performance)
+* [Example](#example)
+  * [The problem](#the-problem)
+  * [The solution](#the-solution)
+* [Problem](#problem)
+
 ## Introduction
 
 The stack data structure adds and removes data based on a **"List In, First Out" (LIFO)** idea. A stack can be represented in Python using a list.

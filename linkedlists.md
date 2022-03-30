@@ -1,5 +1,19 @@
 # Linked List Data Structure
 
+## Contents
+
+* [Introduction](#introduction)
+* [Performance](#performance)
+* [Diving deeper](#diving-deeper-how-linked-lists-work)
+  * [Insert at head/tail](#inserting-at-headtail)
+  * [Insert in middle](#inserting-in-the-middle)
+  * [Removeing heat/tail](#removing-headtail)
+  * [Removing middle](#removing-middle-node)
+* [Example](#example)
+  * [The problem](#the-problem)
+  * [The solution](#the-solution)
+* [Problem](#problem)
+
 ## Introduction
 
 A linked list data structure is somewhat similar to dynamic arrays, with some very important differences. Dynamic arrays store data in a contiguous location, meaning, the first element is right next to the second, which is right next to the third, etc. Linked lists, however, are stored differently. Each element in a linked list could be in a totally random location. So how do we know where each element is? This is where **nodes**  come in.
@@ -182,6 +196,8 @@ print(playlist.play_next()) # Radioactive
 # Star Wars Main Theme
 # Radioactive
 ```
+
+### The solution
 
 We are going to implement methods so that the Playlist is fully functional. Let's start with the `add_song` method. This method will add a song to the end of the queue. The performance of this method should be O(1). This method is using an `insert_tail` opperation. Easily enough, all we have to do is append the song to the end of the queue!
 
