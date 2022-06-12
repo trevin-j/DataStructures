@@ -8,5 +8,3 @@ This repository contains three tutorials that cover three different important da
 * [Linked Lists](linkedlists.md)
 * [Trees](trees.md)
 
-
-Trevin Jones - CSE212-02 - jon20060@byui.edu
